@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>iCar</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors/green.css" id="colors">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="scripts/jquery-1.11.0.min.js"></script>
+
+
+</head>
+
+<body class="boxed">
+<div id="wrapper">
+
+
+<!-- Top Bar
+================================================== -->
+<div id="top-bar">
+    <div class="container">
+
+        <!-- Top Bar Menu -->
+        <div class="ten columns">
+            <ul class="top-bar-menu">
+                <li><i class="fa fa-phone"></i> 400-8888-888</li>
+                <li><i class="fa fa-envelope"></i> <a href="#">barryli0526@gmail.com</a></li>
+                <!--<li>-->
+                <!--<div class="top-bar-dropdown">-->
+                <!--<span>English</span>-->
+                <!--<ul class="options">-->
+                <!--<li><div class="arrow"></div></li>-->
+                <!--<li><a href="#">English</a></li>-->
+                <!--<li><a href="#">Polish</a></li>-->
+                <!--<li><a href="#">Deutsch</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--<div class="top-bar-dropdown">-->
+                <!--<span>USD</span>-->
+                <!--<ul class="options">-->
+                <!--<li><div class="arrow"></div></li>-->
+                <!--<li><a href="#">USD</a></li>-->
+                <!--<li><a href="#">PLN</a></li>-->
+                <!--<li><a href="#">EUR</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</li>-->
+            </ul>
+        </div>
+
+        <!-- Social Icons -->
+        <!--<div class="six columns">-->
+        <!--<ul class="social-icons">-->
+        <!--<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>-->
+        <!--<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>-->
+        <!--<li><a class="dribbble" href="#"><i class="icon-dribbble"></i></a></li>-->
+        <!--<li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>-->
+        <!--<li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<!-- Header
+================================================== -->
+<div class="container">
+
+
+    <!-- Logo -->
+    <div class="four columns">
+        <div id="logo">
+            <h1><a href="index.html"><img src="img/logo.png" alt="Trizzy" /></a></h1>
+        </div>
+    </div>
+
+
+    <!-- Additional Menu -->
+    <div class="twelve columns">
+        <div id="additional-menu">
+            <ul>
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">收藏 <span>(0)</span></a></li>
+                <li><a href="#">退出</a></li>
+                <li><a href="#">我的账户</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Shopping Cart -->
+    <div class="twelve columns">
+
+        <div id="cart">
+
+            <!-- Button -->
+            <div class="cart-btn">
+                <a href="#" class="button adc">117.00</a>
+            </div>
+
+            <div class="cart-list">
+
+                <div class="arrow"></div>
+
+                <div class="cart-amount">
+                    <span>购物车中有两件商品</span>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/small_product_list_01.jpg" alt="" /></a>
+                        <a href="#">壳牌喜力 HX6 半合成油</a>
+                        <span>1 x 57.00</span>
+                        <div class="clearfix"></div>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="img/small_product_list_02.jpg" alt="" /></a>
+                        <a href="#">NGK PFR6Y 9331</a>
+                        <span>1 x 60.00</span>
+                        <div class="clearfix"></div>
+                    </li>
+                </ul>
+
+                <div class="cart-buttons button">
+                    <a href="#" class="view-cart" ><span data-hover="View Cart"><span>我的购物车</span></span></a>
+                    <a href="#" class="checkout"><span data-hover="Checkout">退出</span></a>
+                </div>
+                <div class="clearfix">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Search -->
+        <nav class="top-search">
+            <form action="#" method="get">
+                <button><i class="fa fa-search"></i></button>
+                <input class="search-field" type="text" placeholder="搜索" value="">
+            </form>
+        </nav>
+
+    </div>
+
+</div>
+
+
+<!-- Navigation
+================================================== -->
+<div class="container">
+    <div class="sixteen columns">
+
+        <a href="#menu" class="menu-trigger"><i class="fa fa-bars"></i> 菜单</a>
+
+        <nav id="navigation">
+            <ul class="menu" id="responsive">
+
+                <li><a href="index.html" class="current homepage" id="current">首页</a></li>
+
+                <li>
+                    <a href="baoyang">自助保养服务</a>
+
+                </li>
+
+
+                <li>
+                    <a href="#">配件商城</a>
+                    <div class="mega">
+                        <div class="mega-container">
+
+                            <div class="one-column">
+                                <ul>
+                                    <li><span class="mega-headline">保养配件</span></li>
+                                    <li><a href="shop-with-sidebar.html">机油滤清器</a></li>
+                                    <li><a href="shop-with-sidebar.html">空气滤清器</a></li>
+                                    <li><a href="shop-with-sidebar.html">刹车盘</a></li>
+                                    <li><a href="shop-with-sidebar.html">刹车片</a></li>
+                                    <li><a href="shop-with-sidebar.html">雨刮片</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="one-column">
+                                <ul>
+                                    <li><span class="mega-headline">深度保养品</span></li>
+                                    <li><a href="shop-with-sidebar.html">汽油添加剂</a></li>
+                                    <li><a href="shop-with-sidebar.html">柴油添加剂</a></li>
+                                    <li><a href="shop-with-sidebar.html">发动机抗磨保护剂</a></li>
+                                    <li><a href="shop-with-sidebar.html">刹车系统养护</a></li>
+                                    <li><a href="shop-with-sidebar.html">地盘装甲</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="one-column">
+                                <ul>
+                                    <li><span class="mega-headline">油品/化学品</span></li>
+                                    <li><a href="shop-with-sidebar.html">机油润滑油</a></li>
+                                    <li><a href="shop-with-sidebar.html">刹车油/制动液</a></li>
+                                    <li><a href="shop-with-sidebar.html">助理转向油</a></li>
+                                    <li><a href="shop-with-sidebar.html">防冻冷却液</a></li>
+                                    <li><a href="shop-with-sidebar.html">手动挡变速箱油</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="one-column">
+                                <ul>
+                                    <li><span class="mega-headline">汽车用品</span></li>
+                                    <li><a href="shop-with-sidebar.html">内饰</a></li>
+                                    <li><a href="shop-with-sidebar.html">脚垫</a></li>
+                                    <li><a href="shop-with-sidebar.html">座垫</a></li>
+                                    <li><a href="shop-with-sidebar.html">功能用品</a></li>
+                                    <li><a href="shop-with-sidebar.html">空气净化</a></li>
+                                </ul>
+                            </div>
+                            <div class="one-column">
+                                <ul>
+                                    <li><span class="mega-headline">维修配件</span></li>
+                                    <li><a href="shop-with-sidebar.html">保险丝套件</a></li>
+                                    <li><a href="shop-with-sidebar.html">喇叭</a></li>
+                                    <li><a href="shop-with-sidebar.html">高压点火线</a></li>
+                                    <li><a href="shop-with-sidebar.html">点火线圈</a></li>
+                                    <li><a href="shop-with-sidebar.html">离合器三件套</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="one-three-column">
+                                <a href="#" class="img-caption margin-reset">
+                                    <figure>
+                                        <img src="img/menu-banner-01.jpg" alt="" />
+                                        <!--<figcaption>-->
+                                        <!--<h3>Jeans</h3>-->
+                                        <!--<span>Pack for Style</span>-->
+                                        <!--</figcaption>-->
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <!--<div class="one-fourth-column hidden-on-mobile">-->
+                            <!--<a href="#" class="img-caption margin-reset">-->
+                            <!--<figure>-->
+                            <!--<img src="images/menu-banner-02.jpg" alt="" />-->
+                            <!--<figcaption>-->
+                            <!--<h3>Sunglasses</h3>-->
+                            <!--<span>Nail the Basics</span>-->
+                            <!--</figcaption>-->
+                            <!--</figure>-->
+                            <!--</a>-->
+                            <!--</div>-->
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="">
+                    <a href="map">特约安装店</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="./blog-standard.html">保养心得</a>
+                </li>
+
+
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<%- body %>
+
+<!-- Footer
+================================================== -->
+<div id="footer">
+
+    <!-- Container -->
+    <div class="container">
+
+        <div class="four columns">
+            <!--<img src="images/logo-footer.png" alt="" class="margin-top-10">-->
+
+            <p class="margin-top-15">汽车产业的高速增长，汽车已经成为家庭最普遍的消费品。而汽车后市场服务则是随着汽车保有量的增长而不断增长的行业，具有巨大市场发展空间。电子商务互联网的飞速发展，移动互联的高速膨胀，为汽车产业又注入了新的商机，前景无限。</p>
+        </div>
+
+        <div class="four columns">
+
+            <!-- Headline -->
+            <h3 class="headline footer">特色服务</h3>
+            <span class="line"></span>
+            <div class="clearfix"></div>
+
+            <ul class="footer-links">
+                <li><a href="#">信用等级</a></li>
+                <li><a href="#">养车专家团队</a></li>
+                <li><a href="#">汽配采购平台</a></li>
+            </ul>
+
+        </div>
+
+        <div class="four columns">
+
+            <!-- Headline -->
+            <h3 class="headline footer">合作</h3>
+            <span class="line"></span>
+            <div class="clearfix"></div>
+
+            <ul class="footer-links">
+                <li><a href="#">服务商申请入驻</a></li>
+                <li><a href="#">供应商申请入驻</a></li>
+                <li><a href="#">广告服务</a></li>
+                <li><a href="#">合作伙伴</a></li>
+                <li><a href="#">友情链接</a></li>
+            </ul>
+
+        </div>
+
+        <!--<div class="four columns">-->
+
+        <!--&lt;!&ndash; Headline &ndash;&gt;-->
+        <!--<h3 class="headline footer">Newsletter</h3>-->
+        <!--<span class="line"></span>-->
+        <!--<div class="clearfix"></div>-->
+        <!--<p>Sign up to receive email updates on new product announcements, gift ideas, special promotions, sales and more.</p>-->
+
+        <!--<form action="#" method="get">-->
+        <!--<button class="newsletter-btn" type="submit">Join</button>-->
+        <!--<input class="newsletter" type="text" placeholder="mail@example.com" value="">-->
+        <!--</form>-->
+        <!--</div>-->
+
+        <div class="four columns">
+
+            <!-- Headline -->
+            <h3 class="headline footer">关于我们</h3>
+            <span class="line"></span>
+            <div class="clearfix"></div>
+
+            <ul class="footer-links">
+                <li><a href="#">简介</a></li>
+                <li><a href="#">媒体关注</a></li>
+                <li><a href="#">网站地图</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <!-- Container / End -->
+
+</div>
+<!-- Footer / End -->
+
+<!-- Footer Bottom / Start -->
+<div id="footer-bottom">
+
+    <!-- Container -->
+    <div class="container">
+
+        <div class="eight columns">© Copyright 2014 by <a href="#">iCar</a>. All Rights Reserved.</div>
+        <div class="eight columns">
+            <!--<ul class="payment-icons">-->
+            <!--<li><img src="images/visa.png" alt="" /></li>-->
+            <!--<li><img src="images/mastercard.png" alt="" /></li>-->
+            <!--<li><img src="images/skrill.png" alt="" /></li>-->
+            <!--<li><img src="images/moneybookers.png" alt="" /></li>-->
+            <!--<li><img src="images/paypal.png" alt="" /></li>-->
+            <!--</ul>-->
+        </div>
+
+    </div>
+    <!-- Container / End -->
+
+</div>
+<!-- Footer Bottom / End -->
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+</div>
+<!-- Java Script
+  ================================================== -->
+
+<script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+<script src="scripts/jquery.jpanelmenu.js"></script>
+<script src="scripts/jquery.themepunch.plugins.min.js"></script>
+<script src="scripts/jquery.themepunch.revolution.min.js"></script>
+<script src="scripts/jquery.themepunch.showbizpro.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/hoverIntent.js"></script>
+<script src="scripts/superfish.js"></script>
+<script src="scripts/jquery.pureparallax.js"></script>
+<script src="scripts/jquery.pricefilter.js"></script>
+<script src="scripts/jquery.selectric.min.js"></script>
+<script src="scripts/jquery.royalslider.min.js"></script>
+<script src="scripts/SelectBox.js"></script>
+<script src="scripts/modernizr.custom.js"></script>
+<script src="scripts/waypoints.min.js"></script>
+<script src="scripts/jquery.flexslider-min.js"></script>
+<script src="scripts/jquery.counterup.min.js"></script>
+<script src="scripts/jquery.tooltips.min.js"></script>
+<script src="scripts/jquery.isotope.min.js"></script>
+<script src="scripts/puregrid.js"></script>
+<script src="scripts/stacktable.js"></script>
+<script src="scripts/custom.js"></script>
+
+</body>
+</html>
